@@ -47,9 +47,9 @@ h2,h3, h4, h5 {
   text-align: center;
 }
 
-form {
+.form {
   box-sizing: border-box;
-  flex-basis: 46%;
+  flex-basis: 100%;
   vertical-align: top;
   display: flex;
   flex-wrap: wrap;
@@ -118,3 +118,4 @@ li:nth-child(odd){
   background: var(--grape-putty);
   color: var(--modern-powder-blue);
 }
+
