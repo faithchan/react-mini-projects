@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react"
+import Search from "./Search";
 
-const Home = () => {
+
+function Home() {
     return (
-        <div>
+        <div className="HomePage">
+            <h1> TVMaze React</h1>
             <Search />
-            <Results />
         </div>
-    )
+    );
 }
 
 export default Home
